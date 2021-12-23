@@ -1,0 +1,10 @@
+se pari instalojm visual studio code pastaj hapim llogari ne github pastaj instalojm gitin pasi e instalojm gitin hapim visual studio code dhe e bejme nje projekt cfare do
+pastaj hyn ne Iterm ose Command prompt dhe e shkruan: cd desktop pastaj mkdir (emrin e folderit) pastaj projektin e fut ne kete folder, pastaj shkruan cd (emrin e folderit)
+dhe e shkruan git init pastaj git status per shprehi dhe aty me posht shkruan me te kuqe emri i file-it qe nuk e ki bere add. pas asaj shkruan git add (emri i file) enter
+dhe pastaj shkruajme git commit -m "(dicka rreth cka ke shkruar)" pastaj shkruajme git branch -M main dhe pastaj shkruajme git remote add origin https://github.com/RigonIseni/Bootcamp.git
+
+kete link nuk duhet ju ta shkruani sepse ju do ta keni ndryshe kete do tua jape githubi kur ta hapni repository.
+pas kesaj para se ta shkruajme git push -u origin main
+duhet te marrim acces token e cila mirret keshtu:  Github.com --> Klikojme ne foton e profilit --> Settings --> Developer settings --> personal acces token. dhe pastaj e merrni nje token
+e cila besoj se tek git commit do tju duhet tek passwordi (tek passwordi qe lyp e shkruani tokenin jo passwordin tuaj)
+pastaj e shkruajme git push -u origin main dhe gjithqka ne rregull
